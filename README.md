@@ -31,6 +31,7 @@ La ruta creada para mostrar la información de los integrantes en formato Json s
 ![image](https://github.com/franciscocaero/App_Express/assets/150805792/bc1a4b50-9c96-4742-bdea-f726428da4c2)
 
 Para visualizar los productos se creó un directorio llamado public dentro del cual se creó un archivo style.css para el estilo del html y una carpeta denominada imágenes para guardar las gráficas representativas de los productos.
+
 ![image](https://github.com/franciscocaero/App_Express/assets/150805792/87f70145-920a-4a18-b5c1-c0154e311665)
 
 Para esta ruta se crea un array llamado “productos”, donde cada elemento del array es un objeto que contiene el nombre y la ruta de un producto. Se genera el código HTML para las opciones del menú desplegable utilizando el método “map()” del array “productos”. Se crea un String con elementos “option” para cada producto usando su nombre como valor y texti visible en la opción, “join” (¨¨) une todos los elementos en un único string
